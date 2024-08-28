@@ -80,6 +80,9 @@ Then, update the `config/larafcm-http-v1.php` file with your FCM credentials.
     ],
 ```
 
+## Disclaimer
+This is an implementation for a really old setup, so if I find some time later, I will improve it.
+
 ## License
 
 This package is licensed under the MIT License.
