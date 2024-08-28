@@ -1,0 +1,54 @@
+{
+    "name": "muchg0di/larafcm-http-v1",
+    "description": "Implementation of FCM http v1 for laravel 5 (PHP 5.6)",
+    "keywords": ["firebase", "fcm",  "push"],
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mUcHG0Di",
+            "email": "muchg0di@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6",
+        "illuminate/support": "5.*|^6",
+        "guzzlehttp/guzzle": "^6.3",
+        "google/auth": "^1.19"
+    },
+    "require-dev": {
+        "mockery/mockery" : "0.9.*",
+        "phpunit/phpunit" : "4.7.*",
+        "satooshi/php-coveralls": "2.2.x-dev",
+        "laravel/laravel": "5.2.*",
+        "laravel/tinker": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muchg0di\\LarafcmHttpV1\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muchg0di\\LarafcmHttpV1\\PushNotificationServiceProvider"
+            ],
+            "aliases": {
+                "PushNotification": "Muchg0di\\LarafcmHttpV1\\Facades\\PushNotification"
+            }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    }
+}
