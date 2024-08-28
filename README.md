@@ -40,7 +40,7 @@ Add the facade aliases in the same file:
 ```php
 'aliases' => [
 	// ...
-	'LarafcmHttpV1' => Muchg0di\Facades\LarafcmHttpV1::class,
+	'LarafcmHttpV1' => Muchg0di\LarafcmHttpV1\Facades\LarafcmHttpV1::class,
 ]
 ```
 
