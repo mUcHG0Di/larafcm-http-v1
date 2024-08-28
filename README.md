@@ -4,11 +4,17 @@ Implementation of FCM http v1 for Laravel 5 (PHP 5.6)
 
 ## Table of Contents
 
+* [Disclaimer](#disclaimer)
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Configuration](#configuration)
 * [License](#license)
+
+## Disclaimer
+
+This is an implementation for a really old setup, if you want something well implemented and updated, go check https://github.com/kreait/firebase-php and https://github.com/kreait/laravel-firebase. Maybe if I have time later, I'll improve this.
+
 
 ## Introduction
 
@@ -79,9 +85,6 @@ Then, update the `config/larafcm-http-v1.php` file with your FCM credentials.
         'scope' => env('FIREBASE_SCOPE', 'your-firebase-scope'),
     ],
 ```
-
-## Disclaimer
-This is an implementation for a really old setup, so maybe if I find some time later, I will improve it.
 
 ## License
 
