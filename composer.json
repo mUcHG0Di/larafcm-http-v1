@@ -39,10 +39,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Muchg0di\\LarafcmHttpV1\\PushNotificationServiceProvider"
+                "Muchg0di\\LarafcmHttpV1\\LarafcmHttpV1ServiceProvider"
             ],
             "aliases": {
-                "PushNotification": "Muchg0di\\LarafcmHttpV1\\Facades\\PushNotification"
+                "PushNotification": "Muchg0di\\LarafcmHttpV1\\Facades\\LarafcmHttpV1"
             }
         }
     },
